@@ -78,7 +78,7 @@
                 <div class="col-xl-6 game-section__description">
                     <p class="game-description__title">Игры, которые развивают<br> воображение и интеллект!</p>
                     <p class="game-description__text">Наши разнообразные игры способствуют развитию умственных и физических навыков детей. От азбуки до математики - учиться легко и весело!</p>
-                    <button class="btn game-button">Узнать больше</button>
+                    <button class="btn game-button"><a href="#join">Узнать больше</a></button>
                 </div>
             </div>
         </div>
@@ -125,10 +125,10 @@
             <p class="join-text">Заполните форму регистрации и начните увлекательное приключение развития для вашего ребенка.</p>
             <div class="join-wrapper">
                 <div class="join-form">
-                    <form action="#" class="form">
-                        <input type="text" placeholder="Имя" required>
-                        <input type="text" placeholder="Email" required>
-                        <input type="tel" placeholder="Телефон" required>
+                    <form action="#" method="get" class="form">
+                        <input type="text" placeholder="Имя" name="name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="tel" name="tel" placeholder="Телефон" pattern="^\+7[1-9]{10}$" required>
                         <button class="join-button">Зарегистрироваться</button>
                     </form>
                 </div>

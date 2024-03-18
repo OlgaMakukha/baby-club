@@ -7,6 +7,8 @@ body {
     margin: 0 auto;
 
     overflow-x: hidden;
+
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(255,255,255,1) 48%, rgba(251,251,251,1) 52%, rgba(251,251,251,1) 100%);
 }
 
 .row > * {
@@ -295,7 +297,6 @@ li {
 
 .choose-section {
     margin-bottom: 100px;
-    background-color: #fbfbfb;
 }
 
 .advantages {
@@ -362,8 +363,6 @@ li {
 }
 
 .join-section {
-    background-color: #fbfbfb;
-
     overflow-y: hidden;
 }
 
